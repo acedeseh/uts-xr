@@ -38,7 +38,7 @@ export class PenEnvironment extends THREE.Group {
 
     this._loadedPromise = new Promise((resolve) => {
       gltfLoader.setPath('media/models/environment/');
-      gltfLoader.load('compressed-optimized.glb', (gltf) => {
+      gltfLoader.load('pen-optimized.gltf', (gltf) => {
         gltf.scene.updateMatrixWorld();
 
         let raisedPlatform = null;

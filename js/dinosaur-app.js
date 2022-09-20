@@ -35,7 +35,6 @@ import { GLTFLoader } from './third-party/three.js/examples/jsm/loaders/GLTFLoad
 import { OrbitControls } from './third-party/three.js/examples/jsm/controls/OrbitControls.js';
 import { XRControllerModelFactory } from './third-party/three.js/examples/jsm/webxr/XRControllerModelFactory.js';
 import { OculusHandModel } from './third-party/three.js/examples/jsm/webxr/OculusHandModel.js';
-//import { OculusHandPointerModel } from './third-party/three.js/examples/jsm/webxr/OculusHandPointerModel.js';
 import dat from './third-party/dat.gui.module.js';
 
 // VR Button Layout
